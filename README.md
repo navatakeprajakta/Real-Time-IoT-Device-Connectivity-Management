@@ -1,5 +1,4 @@
-# Real-Time-IoT-Device-Connectivity-Management
-<br>
+
 # Real-Time IoT Device Connectivity Management (C Project)
 
 This project simulates **real-time IoT device connectivity management** using C language and socket programming.  
