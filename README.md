@@ -1,31 +1,47 @@
 **Real-Time IoT Device Connectivity Management** 
-
+<br>
 📘 Project Overview**
+<br>
 This project demonstrates a basic TCP/IP client-server communication model implemented in C language.
+<br>
 It simulates the initial phase of an IoT connectivity system where devices connect to a central server to exchange messages.
+<br>
 Both client and server communicate using socket programming over the TCP protocol.
 
 **⚙️ Features**
+<br>
 ✅ Server socket creation and binding
+<br>
 ✅ TCP connection establishment between client and server
+<br>
 ✅ Bi-directional message exchange
+<br>
 ✅ Real-time communication simulation
 
 🧠 Concept
 The project is based on the TCP (Transmission Control Protocol), ensuring reliable and ordered data transmission between IoT devices and the central server.
 
 **🖥️ Technologies Used**
+<br>
 Language: C
+<br>
 Protocol: TCP/IP
+<br>
 Environment: Ubuntu (WSL or native Linux terminal)
+<br>
 Compiler: GCC
 
 📂 File Structure
 Real-Time-IoT-Device-Connectivity-Management/
+<br>
 │
+<br>
 ├── server.c      # Server-side code
+<br>
 ├── client.c      # Client-side code
+<br>
 ├── Makefile      # Compile and run automation
+<br>
 └── README.md     # Project documentation
 
 🧩 How It Works
@@ -67,11 +83,15 @@ $ ./client
 📩 Server says: Hello from server👋
 
 **🚀 Future Scope**
-Add multiple client connections
+<br>
+Add multiple client connections.
+<br>
 Simulate IoT device parameters (battery, latency, status)
+<br>
 Add JSON-based data packets and dashboards
 
 
-**🧑‍💻 Author**
+**🧑‍💻 Author-**
 **Prajakta Navatake**
+<br>
 🎓 Embedded Systems | IoT Enthusiast
