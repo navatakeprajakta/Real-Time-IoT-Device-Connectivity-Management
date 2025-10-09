@@ -1,6 +1,6 @@
-**Real-Time IoT Device Connectivity Management** 
+**Real-Time IoT Device Connectivity Management**
 <br>
-📘 Project Overview**
+📘 Project Overview
 <br>
 This project demonstrates a basic TCP/IP client-server communication model implemented in C language.
 <br>
