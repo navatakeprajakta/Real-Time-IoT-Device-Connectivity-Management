@@ -1,5 +1,5 @@
 **Real-Time IoT Device Connectivity Management** 
-**<img width="853" height="154" alt="Screenshot 2025-10-07 212429" src="https://github.com/user-attachments/assets/4d76d5eb-5c2c-44d9-a950-123bb8e89ea3" />
+
 📘 Project Overview**
 This project demonstrates a basic TCP/IP client-server communication model implemented in C language.
 It simulates the initial phase of an IoT connectivity system where devices connect to a central server to exchange messages.
@@ -31,28 +31,39 @@ Real-Time-IoT-Device-Connectivity-Management/
 🧩 How It Works
 1️⃣ Server Side
 $ gcc server.c -o server
+<br>
 $ ./server
 <img width="1308" height="226" alt="server" src="https://github.com/user-attachments/assets/9437e176-d89a-4780-93ca-44c7be94dabc" />
 
 **Output:**
-
+<br>
 ✅ Server socket created successfully
+<br>
 ✅ Bind successful on port 8080
+<br>
 🟢 Server listening...
+<br>
 📩 Received: Hello from client
+<br>
 📤 Replied: Hello from server 👋
 
 
 **2️⃣ Client Side**
 $ gcc client.c -o client
+<br>
 $ ./client
 <img width="1331" height="227" alt="client" src="https://github.com/user-attachments/assets/f40978a2-ea6d-4acb-9a18-adae0242a3d9" />
 
 **Output:**
+<br>
 ✅ Socket created
+<br>
 🔄 Trying to connect to server...
+<br>
 ✅ Connected to server!
+<br>
 📤 Sent: Hello from client
+<br>
 📩 Server says: Hello from server👋
 
 **🚀 Future Scope**
