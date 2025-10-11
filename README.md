@@ -2,21 +2,18 @@
 <br>
 📘 Project Overview:
 <br>
-This project demonstrates a basic TCP/IP client-server communication model implemented in C language.
-<br>
-It simulates the initial phase of an IoT connectivity system where devices connect to a central server to exchange messages.
-<br>
-Both client and server communicate using socket programming over the TCP protocol.
+This project demonstrates TCP socket programming in C for IoT connectivity, where a server communicates with multiple clients simultaneously.
+The server and clients exchange data over the TCP protocol, simulating a basic IoT communication framework between devices and a central hub.
 
 **⚙️ Features:**
 <br>
-✅ Server socket creation and binding
+✅ TCP/IP-based communication
 <br>
-✅ TCP connection establishment between client and server
+✅ Multi-client handling using threads
 <br>
-✅ Bi-directional message exchange
+✅ Real-time message exchange between client(s) and server
 <br>
-✅ Real-time communication simulation
+✅ Simple and efficient C implementation
 
 🧠 Concept:
 <br>
@@ -50,42 +47,38 @@ Real-Time-IoT-Device-Connectivity-Management/
 $ gcc server.c -o server
 <br>
 $ ./server
-<img width="1308" height="226" alt="server" src="https://github.com/user-attachments/assets/9437e176-d89a-4780-93ca-44c7be94dabc" />
+
 
 **Output:**
 <br>
-✅ Server socket created successfully
+✅ Server socket created successfully 
 <br>
 ✅ Bind successful on port 8080
 <br>
 🟢 Server listening...
-<br>
-📩 Received: Hello from client
-<br>
-📤 Replied: Hello from server 👋
+<img width="1618" height="171" alt="Screenshot 2025-10-09 103415" src="https://github.com/user-attachments/assets/637adc9d-b2e6-482e-ba66-530c953532a0" />
 
 
 **2️⃣ Client Side:**
 $ gcc client.c -o client
 <br>
 $ ./client
-<img width="1331" height="227" alt="client" src="https://github.com/user-attachments/assets/f40978a2-ea6d-4acb-9a18-adae0242a3d9" />
 
 **Output:**
 <br>
-✅ Socket created
+✅ Socket created  
 <br>
 🔄 Trying to connect to server...
 <br>
 ✅ Connected to server!
 <br>
-📤 Sent: Hello from client
+📤 Sent: Hello from client  
 <br>
-📩 Server says: Hello from server👋
+📩 Server says: Hello client, I received: Hello from client
+<img width="1607" height="179" alt="Screenshot 2025-10-09 103632" src="https://github.com/user-attachments/assets/8a165b92-e303-4e25-bc4f-3fb498cc923f" />
+
 
 **🚀 Future Scope:**
-<br>
-Add multiple client connections.
 <br>
 Simulate IoT device parameters (battery, latency, status)
 <br>
@@ -94,5 +87,6 @@ Add JSON-based data packets and dashboards
 
 **🧑‍💻 Author-**
 **Prajakta Navatake**
+
 <br>
 🎓 Embedded Systems | IoT Enthusiast
